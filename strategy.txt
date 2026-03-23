@@ -3,3 +3,6 @@ within the limited scope of the constraints of the class schedule. Classes which
 
 The code must return the total number of unique class schedules, the all the unique class schedules in a visual format.
 
+We want to take the data from the json file and create a list of all the course objects. Each course object would contain its
+course name "Advanced Systems Engineering II", course ID "ENGR102 HM-01", schedule {"Monday": "0935-1050", "Wednesday": "0935-1050"},
+and the credit hours 3. 

@@ -11,7 +11,7 @@ with open('classData.json', 'r') as file:
 
 class_list = data["classes"]
 
-# print(class_list)
+print(class_list)
 
 # for course in class_list:
 #     name = course["name"]
