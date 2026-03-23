@@ -11,7 +11,7 @@ class Course:
     species = "canine"
 
     # The __init__ method (constructor) initializes instance attributes
-    def __init__(self, name, age):
+    def __init__(self):
         self.name = name  # Instance attribute for the dog's name
         self.age = age    # Instance attribute for the dog's age
 
@@ -22,3 +22,9 @@ class Course:
     # A special method to provide a user-friendly string representation
     def __str__(self):
         return f"{self.name} ({self.age})"
+
+# Deserialization of the class data classData.json
+# Construct each class object using data from the JSON
+
+
+

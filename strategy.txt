@@ -1,0 +1,5 @@
+As our project goal is to use the use-it or lose-it algorithm to go through all possible valid class combinations
+within the limited scope of the constraints of the class schedule. Classes which conflict must not go together.
+
+The code must return the total number of unique class schedules, the all the unique class schedules in a visual format.
+
