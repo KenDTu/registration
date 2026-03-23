@@ -5,6 +5,7 @@ Class descriptions:
 - Course
     - This class has the name, courseID, schedule, creditHours
 """
+import json
 
 class Course:
 
@@ -18,9 +19,23 @@ class Course:
         self.schedule = data["schedule"]    
         self.creditHours = data["creditHours"]      
 
+# Open and load the JSON data
+with open('classData.json', 'r') as file:
+    data = json.load(file)
+    classData = data["classes"] # some redudancy with the classes
+
 
 # Deserialization of the class data classData.json
-# Construct each class object using data from the JSON
+# Construct each class object using data from the JSON & append each object to classes
+
+classes: list[Course] = []
+
+# Append all course objects to a list of Courses
+for course in classData:
+    classes.append(Course(course)) 
+
+
+
 
 
 
