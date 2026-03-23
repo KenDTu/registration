@@ -7,7 +7,8 @@
                 "Monday": "0935-1050",
                 "Wednesday": "0935-1050"
             },
-            "creditHours": 3
+            "creditHours": 3,
+            "requirement": true
         },
         {
             "name": "Continuum Mechanics",
@@ -16,7 +17,8 @@
                 "Tuesday": "0935-1050",
                 "Thursday": "0935-1050"
             },
-            "creditHours": 3
+            "creditHours": 3,
+            "requirement": true
         },
         {
             "name": "Chemical & Thermal Processes ",
@@ -25,7 +27,8 @@
                 "Monday": "0810-0925",
                 "Wednesday": "0810-0925"
             },
-            "creditHours": 3
+            "creditHours": 3,
+            "requirement": true
         }
     ]
 } 

@@ -17,13 +17,13 @@ class Course:
         self.name = data["name"]  
         self.courseID = data["courseID"]
         self.schedule = data["schedule"]    
-        self.creditHours = data["creditHours"]      
+        self.creditHours = data["creditHours"]
+        self.requirement = data["requirement"]   
 
 # Open and load the JSON data
 with open('classData.json', 'r') as file:
     data = json.load(file)
     classData = data["classes"] # some redudancy with the classes
-
 
 # Deserialization of the class data classData.json
 # Construct each class object using data from the JSON & append each object to classes
@@ -36,8 +36,5 @@ for course in classData:
 
 
 
-
-
-
-# engineering: Course = Course({'name': 'Advanced Systems Engineering II', 'courseID': 'ENGR102 HM-01', 'schedule': {'Monday': '0935-1050', 'Wednesday': '0935-1050'}, 'creditHours': 3})
+engineering: Course = Course({'name': 'Advanced Systems Engineering II', 'courseID': 'ENGR102 HM-01', 'schedule': {'Monday': '0935-1050', 'Wednesday': '0935-1050'}, 'creditHours': 3})
 

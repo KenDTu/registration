@@ -2,6 +2,7 @@
 
 import json
 
+
 # Open and load the JSON data
 with open('classData.json', 'r') as file:
     data = json.load(file)
